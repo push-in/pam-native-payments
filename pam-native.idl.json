@@ -1,0 +1,1 @@
+{"$schema":"vendor/pushinbr/pam-native-plugin-kit/resources/pam-native.idl.schema.json","version":1,"namespace":"Pam.Payments","enums":{"PaymentResult":{"Completed":1,"Cancelled":2,"Failed":3},"BillingCollection":{"Automatic":1,"Required":2}}}
