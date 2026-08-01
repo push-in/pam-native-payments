@@ -2,6 +2,11 @@
 
 Stripe PaymentSheet for PAM Native with native payment methods, wallets and SCA/3DS flows. Your server creates the PaymentIntent; the app receives only a publishable key and short-lived client secret. Stripe secret keys are rejected by the PHP API.
 
+```bash
+composer require pushinbr/pam-native-payments
+pam mobile prepare
+```
+
 ```php
 PaymentSheet::make($publishableKey, $paymentIntentClientSecret, 'Acme')
     ->returnUrl('acme://stripe-redirect')
